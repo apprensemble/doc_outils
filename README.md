@@ -35,7 +35,11 @@ cd ~/Outils/
 wget https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-x64.tar.xz
 tar -xJf node-v8.11.2-linux-x64.tar.xz
 rm node-v8.11.2-linux-x64.tar.xz
-# mettre dans .bashrc : export PATH=$PATH:$HOME/Outils/node-v8.11.2-linux-x64/bin
+# mettre dans .bashrc : 
+export PATH=$PATH:$HOME/Outils/node-v8.11.2-linux-x64/bin
+export EDITOR=vim
+set -o vi
+
 # pus installer le module optionnel pour neovim
 npm install -g neovim
 
