@@ -67,3 +67,6 @@ git worktree add ../ansible_2.4.3 && cd ../ansible_2.4.3 && git checkout tags/v2
 
 ## utiliser la version ansible du worktree
 source hacking/env-setup && ansible --version
+
+# ressources
+git@github.com:Grillon/conf_linux.git
