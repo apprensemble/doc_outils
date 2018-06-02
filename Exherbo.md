@@ -104,3 +104,11 @@ reinstaller des drivers x11 : cave resolve -1 $(cave print-ids -m 'x11-drivers/*
 
 gdk-pixbuf : cannot recognize image file format. Dans ce cas installer shared-mime-info : https://github.com/Kozea/WeasyPrint/issues/182 
 
+ 18:56 grillon any Idea : https://ptpb.pw/PPGU
+19:17 frakturfreak (~frakturfr@unaffiliated/frakturfreak) has quit (Ping timeout: 265 seconds)
+19:31 albel727 (~albel727@unaffiliated/albel727) has quit (Read error: Connection reset by peer)
+19:35 mixi grillon: option 1: enable clang-build
+19:37 grillon I have read a message about it with eclectic indeed thank you, what's the options 2 mixi?
+19:37 mixi grillon: option 2: take a look at https://chromium.googlesource.com/chromium/src.git/+/6a95de244dbba0c596541fa88597f34e2160d648%5E%21/ and write, test & contribute a patch adding a backported version of it to chromium-stable's gcc patches
+19:37 rollniak (~rollniak@80.215.242.15) has quit (Read error: Connection reset by peer)
+19:40 mixi (a quick google search told me that this is probably the correct patch to fix your problem - but no guarantees as i can't test building chromium on my system) 
