@@ -34,6 +34,8 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 	
 ## lancer nvim puis :PlugInstall
 
+# installation de l'equivalent pour tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ## creer un lien .tmux.conf dans home, lancer tmux puis Ca+I
 
 
